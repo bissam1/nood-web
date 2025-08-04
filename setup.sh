@@ -1,9 +1,8 @@
-
 #!/bin/bash
 
 # Navigate to or create the project directory
 mkdir -p /workspaces/nood-web
-cd /workspaces/nood-web
+cd /workspaces/nood-web || exit
 
 # Create directory structure
 mkdir -p .github/workflows assets components pages styles data
